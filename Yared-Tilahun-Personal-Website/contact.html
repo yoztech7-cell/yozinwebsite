@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Yared Tilahun</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Website header -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand">
+          <span class="brand-mark">YT</span>
+          <span class="brand-info">
+            <strong>YARED TILAHUN</strong>
+            <small>Software Engineering Student</small>
+          </span>
+        </a>
+
+        <!-- Main navigation -->
+        <nav class="site-nav" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="skills.html" class="nav-link">Skills</a></li>
+            <li><a href="projects.html" class="nav-link">Projects</a></li>
+            <li><a href="education.html" class="nav-link">Education</a></li>
+            <li>
+              <a
+                href="contact.html"
+                class="nav-link active"
+                aria-current="page"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <main id="main-content">
+      <section class="section" aria-labelledby="contact-title">
+        <div class="container">
+          <!-- Page introduction -->
+          <div class="section-heading">
+            <span class="section-label">GET IN TOUCH</span>
+            <h1 id="contact-title">Contact Me</h1>
+
+            <p>
+              Beyond Software Engineering, I have a strong interest in
+              entrepreneurship, digital business, and creative ideas. I am also
+              involved in online business activities and enjoy exploring
+              opportunities that combine technology, creativity, and business.
+              If you would like to learn more, exchange ideas, or discuss a
+              potential opportunity, feel free to contact me privately.
+            </p>
+          </div>
+
+          <!-- Contact information and form -->
+          <div class="grid grid-2">
+            <!-- Contact information -->
+            <article class="card contact-info">
+              <h2>Contact Information</h2>
+              <p>You can reach me through the following contact channels.</p>
+
+              <div class="contact-detail">
+                <h3>Business & Creative Interests</h3>
+                <p>
+                  I am involved in online business and have a strong interest in
+                  entrepreneurship, creativity, and digital opportunities. I
+                  enjoy exploring ideas, building projects, and combining
+                  technology with business. For private inquiries,
+                  collaborations, or business discussions, feel free to reach
+                  out to me directly.
+                </p>
+              </div>
+
+              <!-- Email -->
+              <div class="contact-detail">
+                <h3>
+                  <svg
+                    class="contact-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <rect x="3" y="5" width="18" height="14" rx="2" />
+                    <path d="m3 7 9 6 9-6" />
+                  </svg>
+                  Email
+                </h3>
+                <a href="mailto:yaredt829@gmail.com"> yaredt829@gmail.com </a>
+              </div>
+
+              <!-- Telegram -->
+              <div class="contact-detail">
+                <h3>
+                  <svg
+                    class="contact-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M21.5 3.5 2.8 10.7c-1.3.5-1.3 1.3-.2 1.6l4.8 1.5 1.8 5.5c.2.7.1 1 .8 1 .5 0 .7-.2 1-.5l2.3-2.2 4.8 3.5c.9.5 1.5.2 1.7-.8l3.2-15c.3-1.3-.5-1.9-1.5-1.3ZM8.2 13.5l10.6-6.7c.5-.3.9-.1.5.2l-8.8 8-.3 3.2-2-4.7Z"
+                    />
+                  </svg>
+                  Telegram
+                </h3>
+                <a
+                  href="https://t.me/zeya_12"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Connect on Telegram
+                </a>
+              </div>
+            </article>
+
+            <!-- Contact form -->
+            <div class="card contact-form-card">
+              <h2>Send Me a Message</h2>
+
+              <form class="contact-form" id="contactForm">
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="New Contact Message from Yared Tilahun Portfolio"
+                />
+                <input type="hidden" name="_template" value="table" />
+
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    autocomplete="name"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email address"
+                    autocomplete="email"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="What is your message about?"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Your Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    placeholder="Write your message here..."
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn" id="submitBtn">
+                  Send Message
+                </button>
+
+                <p
+                  class="form-status"
+                  id="formStatus"
+                  role="status"
+                  aria-live="polite"
+                ></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Website footer -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <h3>Yared Tilahun</h3>
+          <p>
+            Software Engineering student interested in technology, software
+            development, entrepreneurship, and innovation.
+          </p>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Connect With Me</h3>
+          <a href="mailto:yaredt829@gmail.com">Email</a>
+          <a
+            href="https://t.me/zeya_12"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Telegram
+          </a>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 Yared Tilahun. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
